@@ -1,0 +1,24 @@
+p {
+  font-family: arial;
+ }
+ .shop {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+ }
+
+ .see {
+  margin-left: 48px;
+  margin-top: 13px;
+  font-size: 15px;
+ }
+
+ .link {
+  margin-left: 120px;
+  color: rgb(65, 65, 255);
+  cursor: pointer;
+ }
+
+ .link:hover {
+  text-decoration: underline;
+ }

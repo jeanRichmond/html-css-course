@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 3000px;
+        padding: 30px;
+        background-color: antiquewhite;
+        font-family: arial;
+      }
+
+
+      .shirt {
+        height: 300px;
+        width: 370px;
+      }
+
+      .boxx {
+        position: relative;
+        display: inline-block;
+      }
+
+      .off {
+        color: white;
+        background-color: black;
+        position: absolute;
+        padding: 5px;
+        top: 10px;
+        right: 0;
+      }
+
+      .cart-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: rgba(250, 235, 215, 0.422);
+        width: 370px;
+        top: 228px;
+        bottom: 0px
+      }
+
+      .cart-button {
+       padding: 7px;
+       height: 30px;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+
+
+      <div class="boxx">
+        <img class="shirt" src="flexbox.jpeg">
+        <div class="off">
+          20% OFF
+        </div>
+
+        <div class="cart-container">
+          <button class="cart-button">Add to Cart</button>
+        </div>
+      </div>
+    
+
+  </body>
+</html>

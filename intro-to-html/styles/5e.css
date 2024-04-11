@@ -1,0 +1,55 @@
+p {
+  font-family: arial;
+}
+
+.new {
+  color: rgb(200, 131, 2);
+  font-size: 13px;
+  margin-left: 297px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.mac {
+  margin-left: 256px;
+  font-size: 18px;  
+  margin-top: 4px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.super {
+  margin-left: 126px;
+  font-size: 35px;
+  margin-top: 3px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.from {
+  margin-left: 272px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.buy {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: rgb(59, 59, 248);
+  margin-left: 290px;
+  height: 27px;
+  width: 50px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.buy:hover {
+  opacity: 0.8;
+}
+
+.buy:active {
+  opacity: 0.5;
+}

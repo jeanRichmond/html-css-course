@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flexbox {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+      }
+
+      .box1 {
+        background-color: lightpink;
+        width: 100px;
+      }
+
+      .box2 {
+        background-color: lightblue;
+        width: 200px;
+      }
+
+      .row2-inside {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+      }
+
+      .row2-item {
+        background-color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flexbox">
+      
+      <div class="box1"></div>
+      <div class="box2">
+        <div>
+          <div class="row1">row1</div>
+          <div class="row2-inside">
+            <div class="row2-item">row2</div>
+            <div class="row2-item">row2</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
